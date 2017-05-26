@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkGray"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.inledco.fluvalsmart.fragment.CTFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="色温"
+            android:textColor="@color/colorWhite"/>
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/ct_sb_ct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="8dp"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:progressDrawable="@drawable/custom_seekbar_ct"
+            android:thumb="@drawable/ic_thumb_white"
+            android:max="32"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="亮度"
+            android:textColor="@color/colorWhite"/>
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/ct_sb_brt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="8dp"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:progressDrawable="@drawable/custom_seekebar_white"
+            android:thumb="@drawable/ic_thumb_white"
+            android:max="32"/>
+    </LinearLayout>
+
+
+</LinearLayout>

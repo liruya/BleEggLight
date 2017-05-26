@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.inledco.fluvalsmart.activity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="@color/colorSkyBlue" >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"/>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_vp_show"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RadioGroup
+        android:id="@+id/main_rg_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/main_rb_device"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:paddingTop="10dp"
+            android:background="@drawable/selector_bg_line_up"
+            android:drawableTop="@drawable/selector_main_device"
+            android:textColor="@color/selector_textcolor_check"
+            android:text="@string/main_device"/>
+        <RadioButton
+            android:id="@+id/main_rb_news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:paddingTop="10dp"
+            android:background="@drawable/selector_bg_line_up"
+            android:drawableTop="@drawable/selector_main_news"
+            android:textColor="@color/selector_textcolor_check"
+            android:text="@string/main_news" />
+        <RadioButton
+            android:id="@+id/main_rb_setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:paddingTop="10dp"
+            android:background="@drawable/selector_bg_line_up"
+            android:drawableTop="@drawable/selector_main_setting"
+            android:textColor="@color/selector_textcolor_check"
+            android:text="@string/main_setting" />
+    </RadioGroup>
+</LinearLayout>

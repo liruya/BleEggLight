@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inledco.fluvalsmart.activity.ScanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan_headr"
+        android:background="@color/colorSkyBlue">
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/scan_ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@color/colorTransparent"
+            android:src="@mipmap/ic_back"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:text="@string/scan_devices"/>
+        <ToggleButton
+            android:id="@+id/scan_tb_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textOn="@string/scan_stop"
+            android:textOff="@string/scan_scan"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorTransparent" />
+        <ProgressBar
+            android:id="@+id/scan_pb_scanning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/scan_tb_scan"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@color/colorTransparent" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/scan_rv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scan_headr"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp" />
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/scan_btn_cfm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:src="@mipmap/scan_confirm"/>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name" translatable="false">FluvalSmart</string>
+    <string name="main_device">Devices</string>
+    <string name="main_news">News</string>
+    <string name="main_setting">Setting</string>
+    <string name="ble_no_support">This device doesn\\\'t support BLE 4.x.</string>
+    <string name="scan_devices">Devices</string>
+    <string name="scan_scan">scan</string>
+    <string name="scan_stop">stop</string>
+    <string name="item_device_name" translatable="false">device_name</string>
+    <string name="item_device_type" translatable="false">device_type</string>
+
+    <string name="device_type_unkown">Unknown Device</string>
+    <string name="mode_auto">Auto</string>
+    <string name="mode_manual">Manual</string>
+    <string name="light_channel_name" translatable="false">CHx</string>
+    <string name="light_channel_percent" translatable="false">xx%</string>
+    <string name="light_auto_import">Import</string>
+    <string name="light_auto_export">Export</string>
+    <string name="light_auto_load">Load</string>
+    <string name="light_auto_edit">Edit</string>
+    <string name="item_morning">Morning</string>
+    <string name="item_sunrise" translatable="false">Sunrise</string>
+    <string name="item_evening">Evening</string>
+    <string name="item_sunset" translatable="false">Sunset</string>
+    <string name="item_midday">Midday</string>
+    <string name="item_night">Night</string>
+    <string name="light_auto_done">Done</string>
+    <string name="timepicker_start">Start</string>
+    <string name="timepicker_end">End</string>
+    <string name="light_auto_preview">Preview</string>
+    <string name="light_auto_stop">Stop</string>
+    <!--<string name="socket_allon" translatable="false">ALL ON</string>-->
+    <!--<string name="socket_alloff" translatable="false">ALL OFF</string>-->
+    <!--<string name="card_socket_chn_name" translatable="false">chn_name</string>-->
+    <!--<string name="tmr_everyday" translatable="false">Everyday</string>-->
+    <!--<string name="tmr_onetime" translatable="false">One Time</string>-->
+    <!--<string name="tmr_custom" translatable="false">Custom</string>-->
+    <!--<string name="week_sun" translatable="false">Sun</string>-->
+    <!--<string name="week_mon" translatable="false">Mon</string>-->
+    <!--<string name="week_tue" translatable="false">Tue</string>-->
+    <!--<string name="week_wen" translatable="false">Wen</string>-->
+    <!--<string name="week_thu" translatable="false">Thu</string>-->
+    <!--<string name="week_fri" translatable="false">Fri</string>-->
+    <!--<string name="week_sat" translatable="false">Sat</string>-->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="connecting">connecting...</string>
+    <string name="connect_failed">connect failed</string>
+    <string name="connect_success">connect success</string>
+    <string name="dialog_reconnect">Reconnect</string>
+    <string name="dialog_exit">Exit</string>
+    <string name="dialog_disconnect_info">Device disconnected,reconnect?</string>
+    <string name="rename_device">Rename Device</string>
+    <string name="rename">Rename</string>
+    <string name="input_newname">Please input a new device name.</string>
+    <string name="custom_default">Default</string>
+    <string name="export_profile">Export Profile</string>
+    <string name="import_profile">Import Profile</string>
+    <string name="input_profile_name">Please input the profile name.</string>
+    <string name="error_input_empty">Input can\'t be empty.</string>
+    <string name="setting_auth_ble">Allow auto open bluetooth</string>
+    <string name="setting_exit_close_ble">Turn off Bluetooth when exit</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_lang_english" translatable="false">English</string>
+    <string name="setting_lang_germany" translatable="false">Deutsch</string>
+    <string name="setting_lang_french" translatable="false">Français</string>
+    <string name="setting_profile">Profiles</string>
+    <string name="setting_about">About us</string>
+    <string name="setting_um">User Manual</string>
+    <string name="dialog_ok">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
